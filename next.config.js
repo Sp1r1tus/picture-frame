@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: "/picture-frame",
+  basePath: "/sweet-home",
+  output: "export",
 };
 
 module.exports = nextConfig;
